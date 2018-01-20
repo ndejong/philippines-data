@@ -11,14 +11,14 @@ Philippine Statistics Authority (PSA) have several reasonable articles about the
    not well arranged to make easy use of the data (multiple values in single 
    cells etc), so a fair bit of manual massaging of the dataset is required to 
    get it into shape.
- - after [wrangling](http://tbc) with the data we now have it available in a nice clean JSON 
+ - after [wrangling](https://github.com/ndejong/philippines-data/blob/master/tools/csvtojson.py) with the data we now have it available in a nice clean JSON 
    formatted structure [2015 Population Density_web_clean-columns.json](http://tbc)
  - using the [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro) 
    service we are able to easily lookup the lat/long for all expressed 
    City/Municipality names in the original 2015 census data which we fold into
-   the wrangled JSON formatted data using [insertgeocode.py](http://tbc)
+   the wrangled JSON formatted data using [insertgeocode.py](https://github.com/ndejong/philippines-data/blob/master/tools/insertgeocode.py)
  - the combination of the PSA 2015 Census data and the Google Maps Geocode 
-   lookups is now quite useful [2015-population-density-w-google-geocode_20171218.json](http://tba)
+   lookups is now quite useful [2015-population-density-w-google-geocode_20171218.json](https://github.com/ndejong/philippines-data/raw/master/data/2015%20Population%20Density_web_clean-columns.json)
    because we can use it to generate a nice interactive heatmap.
    
 Also worth a mention is the PSA Openstat facility here:-
