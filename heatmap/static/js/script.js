@@ -11,8 +11,8 @@ document.getElementById('floating-panel-title').textContent="density";
 function initMap() {
 
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 7,
-        center: {lat: 11.5528816, lng: 122.740723},
+        zoom: 10,
+        center: {lat: 14.4975193, lng: 121.0019817},
         mapTypeId: 'terrain'
     });
 
