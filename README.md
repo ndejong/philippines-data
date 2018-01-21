@@ -16,7 +16,7 @@ Philippine Statistics Authority (PSA) have several reasonable articles about the
    are able to easily lookup the lat/long for all expressed City/Municipality names in the census dataset which then 
    gets folded into the wrangled JSON formatted data using [insertgeocode.py](https://github.com/ndejong/philippines-data/blob/master/tools/insertgeocode.py)
  - the combination of the PSA 2015 Census data and the Google Maps Geocode lookups is now quite useful [2015-population-density-w-google-geocode_20171218.json](https://github.com/ndejong/philippines-data/raw/master/data/2015%20Population%20Density_web_clean-columns.json)
-   because we can use it to generate things like an interactive heatmap.
+   because we can use it to generate things like an [interactive heatmap](http://nicholasdejong.com/projects/philippines-data/heatmap/)
    
 Also worth a mention is the Philippine Statistics Authority Openstat facility with plenty of 
 useful statistical about the Philippines:-
